@@ -1,4 +1,5 @@
-
+<p align="center">
+  <img src="https://github.com/sammorozov/sammorozov/blob/main/assets/github-snake.svg" alt="GitHub Snake" width="100%" height="auto">
 
 <h1 align="center">Hi 👋, I'm Asmit kumar sharma</h1>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=asmitsharma1&label=Profile%20views&color=0e75b6&style=flat" alt="asmitsharma1" /> </p>
