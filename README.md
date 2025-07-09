@@ -49,7 +49,7 @@
 ### 🌍 Let's Connect
 
 <p>
-  <a href="https://linkedin.com/in/asmitsharma1" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/-Asmit%20Sharma-blue?style=flat-square&logo=Linkedin&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/aksharma12" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/-Asmit%20Sharma-blue?style=flat-square&logo=Linkedin&logoColor=white"/></a>
   <a href="mailto:asmitsharma895@gmail.com"><img alt="Email" src="https://img.shields.io/badge/-asmitsharma895@gmail.com-red?style=flat-square&logo=Gmail&logoColor=white"/></a>
   <a href="https://lifefundies.in" target="_blank"><img alt="LifeFundies Website" src="https://img.shields.io/badge/-LifeFundies-black?style=flat-square&logo=github&logoColor=white"/></a>
 </p>
