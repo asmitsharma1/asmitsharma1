@@ -1,0 +1,145 @@
+@startuml
+!define RECTANGLE class
+
+title Background Remover Application - Use Case Diagram
+
+left to right direction
+
+actor "Basic User" as BasicUser
+actor "Professional User" as ProfUser
+actor "Admin" as Admin
+actor "System" as System
+
+rectangle "Background Remover Application" {
+  
+  ' Core Functionality Package
+  package "Core Functionality" {
+    usecase "Upload Image" as UC1
+    usecase "Upload from Local Storage" as UC1a
+    usecase "Upload from URL" as UC1b
+    usecase "Process Image" as UC2
+    usecase "Download Processed Image" as UC3
+    usecase "Download as PNG" as UC3a
+    usecase "Download as JPEG" as UC3b
+    usecase "Preview Image" as UC4
+    usecase "Monitor Processing Status" as UC5
+  }
+  
+  ' Background Management Package
+  package "Background Management" {
+    usecase "Remove Background" as UC6
+    usecase "Replace Background with Solid Color" as UC7
+    usecase "Replace Background with Custom Image" as UC8
+    usecase "Select Predefined Background" as UC9
+  }
+  
+  ' User Management Package
+  package "User Management" {
+    usecase "User Registration" as UC10
+    usecase "User Login" as UC11
+    usecase "View Processing History" as UC12
+    usecase "Manage Subscription" as UC13
+    usecase "Upgrade to Premium" as UC13a
+    usecase "Manage Free Account" as UC13b
+  }
+  
+  ' Professional Features Package
+  package "Professional Features" {
+    usecase "Batch Processing" as UC14
+    usecase "Advanced Background Options" as UC15
+    usecase "Unlimited Usage" as UC16
+    usecase "Custom Processing Settings" as UC17
+  }
+  
+  ' Administrative Package
+  package "Administrative" {
+    usecase "Manage Users" as UC18
+    usecase "Monitor System Performance" as UC19
+    usecase "Handle Support Requests" as UC20
+    usecase "System Maintenance" as UC21
+    usecase "Generate Reports" as UC22
+  }
+  
+  ' System Features Package
+  package "System Features" {
+    usecase "Auto-delete Images" as UC23
+    usecase "Cloud Storage Integration" as UC24
+    usecase "API Integration" as UC25
+    usecase "AI Processing Engine" as UC26
+    usecase "Image Quality Optimization" as UC27
+  }
+}
+
+' Basic User relationships
+BasicUser --> UC1
+BasicUser --> UC2
+BasicUser --> UC3
+BasicUser --> UC4
+BasicUser --> UC5
+BasicUser --> UC6
+BasicUser --> UC7
+BasicUser --> UC9
+BasicUser --> UC10
+BasicUser --> UC11
+BasicUser --> UC12
+BasicUser --> UC13
+
+' Professional User relationships (inherits from Basic User)
+ProfUser --> UC1
+ProfUser --> UC2
+ProfUser --> UC3
+ProfUser --> UC4
+ProfUser --> UC5
+ProfUser --> UC6
+ProfUser --> UC7
+ProfUser --> UC8
+ProfUser --> UC9
+ProfUser --> UC10
+ProfUser --> UC11
+ProfUser --> UC12
+ProfUser --> UC13
+ProfUser --> UC14
+ProfUser --> UC15
+ProfUser --> UC16
+ProfUser --> UC17
+
+' Admin relationships
+Admin --> UC18
+Admin --> UC19
+Admin --> UC20
+Admin --> UC21
+Admin --> UC22
+
+' System relationships
+System --> UC23
+System --> UC24
+System --> UC25
+System --> UC26
+System --> UC27
+
+' Extends relationships
+UC1 <|-- UC1a : extends
+UC1 <|-- UC1b : extends
+UC3 <|-- UC3a : extends
+UC3 <|-- UC3b : extends
+UC13 <|-- UC13a : extends
+UC13 <|-- UC13b : extends
+
+' Includes relationships
+UC2 ..> UC26 : includes
+UC2 ..> UC5 : includes
+UC6 ..> UC2 : includes
+UC7 ..> UC2 : includes
+UC8 ..> UC2 : includes
+UC9 ..> UC2 : includes
+UC14 ..> UC2 : includes
+UC14 ..> UC6 : includes
+UC15 ..> UC8 : includes
+UC24 ..> UC23 : includes
+UC3 ..> UC24 : includes
+UC1 ..> UC24 : includes
+
+' Generalization relationships
+ProfUser --|> BasicUser
+
+@enduml
