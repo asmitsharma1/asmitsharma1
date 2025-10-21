@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1400" height="1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; text-anchor: middle; }
+      .header { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; }
+      .normal { font-family: Arial, sans-serif; font-size: 11px; }
+      .actor-box { fill: #E8F4FD; stroke: #000; stroke-width: 1; }
+      .usecase-ellipse { fill: #FFF2CC; stroke: #000; stroke-width: 1; }
+      .package-rect { fill: #D5E8D4; stroke: #000; stroke-width: 1; }
+      .system-boundary { fill: none; stroke: #000; stroke-width: 2; }
+      .connection { stroke: #000; stroke-width: 1; }
+      .legend-actor { fill: #E8F4FD; stroke: #000; stroke-width: 1; }
+      .legend-usecase { fill: #FFF2CC; stroke: #000; stroke-width: 1; }
+      .legend-package { fill: #D5E8D4; stroke: #000; stroke-width: 1; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="700" y="35" class="title">Background Remover Application - Use Case Diagram</text>
+  
+  <!-- System Boundary -->
+  <rect x="200" y="80" width="1100" height="850" class="system-boundary"/>
+  <text x="210" y="100" class="header">Background Remover Application</text>
+  
+  <!-- Actors -->
+  <!-- Basic User -->
+  <rect x="50" y="200" width="120" height="40" class="actor-box"/>
+  <text x="110" y="225" class="normal text-anchor: middle">Basic User</text>
+  
+  <!-- Professional User -->
+  <rect x="50" y="350" width="120" height="40" class="actor-box"/>
+  <text x="110" y="375" class="normal text-anchor: middle">Professional User</text>
+  
+  <!-- Admin -->
+  <rect x="50" y="500" width="120" height="40" class="actor-box"/>
+  <text x="110" y="525" class="normal text-anchor: middle">Admin</text>
+  
+  <!-- System -->
+  <rect x="50" y="650" width="120" height="40" class="actor-box"/>
+  <text x="110" y="675" class="normal text-anchor: middle">System</text>
+  
+  <!-- Package: Core Functionality -->
+  <rect x="250" y="120" width="400" height="140" class="package-rect"/>
+  <text x="255" y="140" class="header">Core Functionality</text>
+  
+  <!-- Use cases in Core Functionality -->
+  <ellipse cx="340" cy="165" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="340" y="170" class="normal text-anchor: middle">Upload Image</text>
+  
+  <ellipse cx="530" cy="165" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="530" y="170" class="normal text-anchor: middle">Process Image</text>
+  
+  <ellipse cx="340" cy="190" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="340" y="195" class="normal text-anchor: middle">Download Image</text>
+  
+  <ellipse cx="530" cy="190" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="530" y="195" class="normal text-anchor: middle">Preview Image</text>
+  
+  <ellipse cx="450" cy="215" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="450" y="220" class="normal text-anchor: middle">Monitor Status</text>
+  
+  <!-- Package: Background Management -->
+  <rect x="250" y="280" width="400" height="140" class="package-rect"/>
+  <text x="255" y="300" class="header">Background Management</text>
+  
+  <ellipse cx="340" cy="325" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="340" y="330" class="normal text-anchor: middle">Remove Background</text>
+  
+  <ellipse cx="530" cy="325" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="530" y="330" class="normal text-anchor: middle">Solid Color Bg</text>
+  
+  <ellipse cx="340" cy="350" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="340" y="355" class="normal text-anchor: middle">Custom Image Bg</text>
+  
+  <ellipse cx="530" cy="350" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="530" y="355" class="normal text-anchor: middle">Predefined Bg</text>
+  
+  <!-- Package: User Management -->
+  <rect x="250" y="440" width="400" height="140" class="package-rect"/>
+  <text x="255" y="460" class="header">User Management</text>
+  
+  <ellipse cx="340" cy="485" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="340" y="490" class="normal text-anchor: middle">User Registration</text>
+  
+  <ellipse cx="530" cy="485" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="530" y="490" class="normal text-anchor: middle">User Login</text>
+  
+  <ellipse cx="340" cy="510" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="340" y="515" class="normal text-anchor: middle">View History</text>
+  
+  <ellipse cx="530" cy="510" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="530" y="515" class="normal text-anchor: middle">Manage Subscription</text>
+  
+  <!-- Package: Professional Features -->
+  <rect x="680" y="120" width="400" height="140" class="package-rect"/>
+  <text x="685" y="140" class="header">Professional Features</text>
+  
+  <ellipse cx="770" cy="165" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="770" y="170" class="normal text-anchor: middle">Batch Processing</text>
+  
+  <ellipse cx="960" cy="165" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="960" y="170" class="normal text-anchor: middle">Advanced Options</text>
+  
+  <ellipse cx="770" cy="190" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="770" y="195" class="normal text-anchor: middle">Unlimited Usage</text>
+  
+  <ellipse cx="960" cy="190" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="960" y="195" class="normal text-anchor: middle">Custom Settings</text>
+  
+  <!-- Package: Administrative -->
+  <rect x="680" y="280" width="400" height="140" class="package-rect"/>
+  <text x="685" y="300" class="header">Administrative</text>
+  
+  <ellipse cx="770" cy="325" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="770" y="330" class="normal text-anchor: middle">Manage Users</text>
+  
+  <ellipse cx="960" cy="325" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="960" y="330" class="normal text-anchor: middle">Monitor Performance</text>
+  
+  <ellipse cx="770" cy="350" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="770" y="355" class="normal text-anchor: middle">Handle Support</text>
+  
+  <ellipse cx="960" cy="350" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="960" y="355" class="normal text-anchor: middle">System Maintenance</text>
+  
+  <!-- Package: System Features -->
+  <rect x="680" y="440" width="400" height="140" class="package-rect"/>
+  <text x="685" y="460" class="header">System Features</text>
+  
+  <ellipse cx="770" cy="485" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="770" y="490" class="normal text-anchor: middle">Auto-delete Images</text>
+  
+  <ellipse cx="960" cy="485" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="960" y="490" class="normal text-anchor: middle">Cloud Storage</text>
+  
+  <ellipse cx="770" cy="510" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="770" y="515" class="normal text-anchor: middle">API Integration</text>
+  
+  <ellipse cx="960" cy="510" rx="85" ry="12" class="usecase-ellipse"/>
+  <text x="960" y="515" class="normal text-anchor: middle">AI Processing</text>
+  
+  <!-- Connections from Basic User -->
+  <line x1="170" y1="220" x2="340" y2="165" class="connection"/>
+  <line x1="170" y1="220" x2="530" y2="165" class="connection"/>
+  <line x1="170" y1="220" x2="340" y2="190" class="connection"/>
+  <line x1="170" y1="220" x2="530" y2="190" class="connection"/>
+  <line x1="170" y1="220" x2="340" y2="325" class="connection"/>
+  <line x1="170" y1="220" x2="340" y2="485" class="connection"/>
+  <line x1="170" y1="220" x2="530" y2="485" class="connection"/>
+  
+  <!-- Connections from Professional User -->
+  <line x1="170" y1="370" x2="770" y2="165" class="connection"/>
+  <line x1="170" y1="370" x2="960" y2="165" class="connection"/>
+  <line x1="170" y1="370" x2="770" y2="190" class="connection"/>
+  <line x1="170" y1="370" x2="960" y2="190" class="connection"/>
+  
+  <!-- Connections from Admin -->
+  <line x1="170" y1="520" x2="770" y2="325" class="connection"/>
+  <line x1="170" y1="520" x2="960" y2="325" class="connection"/>
+  <line x1="170" y1="520" x2="770" y2="350" class="connection"/>
+  <line x1="170" y1="520" x2="960" y2="350" class="connection"/>
+  
+  <!-- Connections from System -->
+  <line x1="170" y1="670" x2="770" y2="485" class="connection"/>
+  <line x1="170" y1="670" x2="960" y2="485" class="connection"/>
+  <line x1="170" y1="670" x2="770" y2="510" class="connection"/>
+  <line x1="170" y1="670" x2="960" y2="510" class="connection"/>
+  
+  <!-- Generalization arrow from Professional User to Basic User -->
+  <line x1="110" y1="350" x2="110" y2="240" class="connection" stroke-width="2"/>
+  <polygon points="105,245 110,235 115,245" fill="white" stroke="black"/>
+  
+  <!-- Legend -->
+  <text x="50" y="780" class="header">Legend:</text>
+  
+  <rect x="50" y="800" width="70" height="20" class="legend-actor"/>
+  <text x="130" y="815" class="normal">Actor</text>
+  
+  <ellipse cx="85" cy="840" rx="35" ry="10" class="legend-usecase"/>
+  <text x="130" y="845" class="normal">Use Case</text>
+  
+  <rect x="50" y="860" width="70" height="20" class="legend-package"/>
+  <text x="130" y="875" class="normal">Package/System Boundary</text>
+  
+  <!-- Relationship explanations -->
+  <text x="300" y="800" class="header">Key Relationships:</text>
+  <text x="300" y="820" class="normal">• Professional User extends Basic User (inheritance)</text>
+  <text x="300" y="835" class="normal">• Process Image includes AI Processing Engine</text>
+  <text x="300" y="850" class="normal">• Background operations include Process Image</text>
+  <text x="300" y="865" class="normal">• Upload/Download include Cloud Storage</text>
+  
+</svg>
