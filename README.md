@@ -45,7 +45,6 @@ const asmit = {
   <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=asmitsharma1&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" />
 </p>
 
----
 
 ## 💻 Tech Stack
 
@@ -145,19 +144,18 @@ Part of a team of **10 developers** committed to:
 
 <p align="center">
   <a href="https://linkedin.com/in/aksharma12" target="_blank">
-    <img src="https://img.shields.io/badge/-Asmit%20Sharma-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"/>
+  </a>
+  <a href="https://codolio.com/profile/Asmit_Sharma" target="_blank">
+    <img src="https://img.shields.io/badge/-Codolio-FF6B6B?style=for-the-badge&logo=code&logoColor=white"/>
   </a>
   <a href="mailto:asmitsharma895@gmail.com">
-    <img src="https://img.shields.io/badge/-asmitsharma895@gmail.com-D14836?style=for-the-badge&logo=Gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=Gmail&logoColor=white"/>
   </a>
   <a href="https://instagram.com/10.devs-brostack" target="_blank">
-    <img src="https://img.shields.io/badge/-@10.devs--brostack-E4405F?style=for-the-badge&logo=Instagram&logoColor=white"/>
-  </a>
-  <a href="https://lifefundies.in" target="_blank">
-    <img src="https://img.shields.io/badge/-LifeFundies-000000?style=for-the-badge&logo=About.me&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=Instagram&logoColor=white"/>
   </a>
 </p>
-
 ---
 
 ## 💡 Personal Philosophy
